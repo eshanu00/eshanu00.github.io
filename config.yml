@@ -106,7 +106,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
+      icon: red.ico
       iconHeight: 18
 
 markup:

@@ -30,6 +30,10 @@
     --marginleft: 26px;
 }
 
+body {
+    background-color: blue;
+}
+
 .dark {
     --theme: rgb(29, 30, 32);
     --entry: rgb(46, 46, 51);

@@ -1,5 +1,5 @@
 baseURL: "eshanu00.github.io" 
-title: The Jenitor of Gods
+title: Learning Point
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -54,7 +54,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Geralt of Rivia
+          title: Eshan J
           subtitle: "Geralt of Rivia is a fictional character and the protagonist of The Witcher series of short stories and novels by Polish author Andrzej Sapkowski. He is a magically enhanced monster-hunter known as a 'witcher', who possesses supernatural abilities due to his mutations"
           imageUrl: "geralt.gif"
           imageWidth: 220

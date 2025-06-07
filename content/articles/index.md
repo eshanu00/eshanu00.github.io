@@ -1,7 +1,3 @@
----
-title: "Articles"
----
-
 # SWOT ANALYSIS
 
 | Strengths |

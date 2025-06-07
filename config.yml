@@ -74,8 +74,8 @@ params:
               url: archive/
             - name: Blog
               url: blog/
-            - name: YouTube
-              url: https://youtube.com
+            - name: Articles
+              url: articles/
 
     socialIcons:
         - name: CV

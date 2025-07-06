@@ -1,5 +1,5 @@
 baseURL: "eshanu00.github.io" 
-title: Learning Point
+title: localhost:8080
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,29 +12,14 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4
         - name: Blog
           url: blog/
-          weight: 6
+          weight: 2
         - name: Articles
           url: articles/
-          weight: 7
+          weight: 3
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Eshan J
-    # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -47,7 +32,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["Blog","Articles"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -63,36 +48,14 @@ params:
           imageWidth: 220
           imageHeight: 200
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
             - name: Blog
               url: blog/
             - name: Articles
               url: articles/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: YouTube
-          url: https://www.youtube.com/
-        - name: Facebook
-          url: https://facebook.com
+          url: https://github.com/eshanu00
 
     assets:
         disableScrollBarStyle: true
@@ -101,8 +64,8 @@ params:
         hiddenInSingle: true
     label:
       text: "Home"
-      icon: favicon.ico
-      iconHeight: 18
+      icon: icon.png
+      iconHeight: 24
 
 markup:
     goldmark:
